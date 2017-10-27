@@ -11,6 +11,8 @@ namespace HtmlBlocks;
 //
 // The <col> tag also supports the Global Attributes in HTML.
 // The <col> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Col extends Component{
 
@@ -43,7 +45,7 @@ class Col extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <col>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         var attributes = this->generateSpan();

@@ -20,6 +20,8 @@ namespace HtmlBlocks;
 //
 // The <datalist> tag also supports the Global Attributes in HTML.
 // The <datalist> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Datalist extends Component{
 

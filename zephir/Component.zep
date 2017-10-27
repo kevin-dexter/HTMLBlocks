@@ -1,5 +1,9 @@
 namespace HtmlBlocks;
 
+
+//
+// STATUS : Incomplete.
+
 class Component{
     const SIZE_LARGE   = 0;
     const SIZE_DEFAULT = 1;

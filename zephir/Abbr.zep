@@ -6,6 +6,8 @@ namespace HtmlBlocks;
 // The <abbr> tag defines an abbreviation or an acronym, like "Mr.", "Dec.", "ASAP", "ATM"
 //
 // ex. <abbr title="World Health Organization">WHO</abbr>
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Abbr extends Component{
 

@@ -1,7 +1,7 @@
 namespace HtmlBlocks;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-// Base
+// Base  TODO : imcomplete/wrong tags
 //
 // The <base> tag specifies the base URL/target for all relative URLs in a document. There can be at
 // maximum one <base> element in a document, and it must be inside the <head> element.

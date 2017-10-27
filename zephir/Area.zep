@@ -18,6 +18,8 @@ namespace HtmlBlocks;
 //
 // The <area> tag also supports the Global Attributes in HTML.
 // The <area> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Area extends Component{
 

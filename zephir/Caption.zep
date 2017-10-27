@@ -12,6 +12,8 @@ namespace HtmlBlocks;
 //
 // The <br> tag also supports the Global Attributes in HTML.
 // The <br> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Caption extends Component{
 

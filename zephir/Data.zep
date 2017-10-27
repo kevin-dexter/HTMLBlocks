@@ -10,6 +10,8 @@ namespace HtmlBlocks;
 // ex. <data value="21053">Cherry Tomato</data>
 //
 // The <Data> tag also supports the Global Attributes in HTML.
+//
+// STATUS : Incomplete
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Data extends Component{
 

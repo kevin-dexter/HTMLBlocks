@@ -47,7 +47,7 @@ class Colgroup extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <colgroup></colgroup>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         var attributes = this->generateSpan();

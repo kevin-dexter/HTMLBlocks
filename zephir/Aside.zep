@@ -15,6 +15,8 @@ namespace HtmlBlocks;
 //
 // The <aside> tag also supports the Global Attributes in HTML.
 // The <aside> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Aside extends Component{
 

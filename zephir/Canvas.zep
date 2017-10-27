@@ -17,6 +17,8 @@ namespace HtmlBlocks;
 //
 // The <button> tag also supports the Global Attributes in HTML.
 // The <button> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Incomplete.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Canvas extends Component{
     

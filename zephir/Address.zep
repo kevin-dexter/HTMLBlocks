@@ -16,6 +16,8 @@ namespace HtmlBlocks;
 //          Box 564, Disneyland<br>
 //          USA
 //      </address> 
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Address extends Component{
 

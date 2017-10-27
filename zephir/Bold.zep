@@ -9,6 +9,8 @@ namespace HtmlBlocks;
 //
 // The <b> tag also supports the Global Attributes in HTML.
 // The <b> tag DOES NOT support the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Bold extends Component{
 

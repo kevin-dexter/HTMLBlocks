@@ -17,6 +17,8 @@ namespace HtmlBlocks;
 //
 // The <body> tag also supports the Global Attributes in HTML.
 // The <body> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Body extends Component{
 
