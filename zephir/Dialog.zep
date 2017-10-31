@@ -21,6 +21,8 @@ namespace HtmlBlocks;
 //
 // The <dialog> tag also supports the Global Attributes in HTML.
 // The <dialog> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Dialog extends Component{
 
@@ -54,7 +56,7 @@ class Dialog extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <dialog></dialog>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         var attributes = this->generateOpen();

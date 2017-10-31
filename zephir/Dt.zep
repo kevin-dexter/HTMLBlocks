@@ -15,6 +15,8 @@ namespace HtmlBlocks;
 //
 // The <dt> tag also supports the Global Attributes in HTML.
 // The <dt> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Dt extends Component{
 
@@ -23,7 +25,7 @@ class Dt extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <dt></dt>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         return "<dt ".parent::generateAttributes().">".parent::generateComponents()."</dt>";

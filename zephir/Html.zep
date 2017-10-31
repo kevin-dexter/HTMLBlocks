@@ -20,6 +20,8 @@ namespace HtmlBlocks;
 //
 // The <html> tag also supports the Global Attributes in HTML.
 // The <html> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Html extends Component{
 

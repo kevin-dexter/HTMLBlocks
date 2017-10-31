@@ -13,6 +13,8 @@ namespace HtmlBlocks;
 //
 // The <figcaption> tag also supports the Global Attributes in HTML.
 // The <figcaption> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Figcaption extends Component{
 
@@ -21,7 +23,7 @@ class Figcaption extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <figcaption></figcaption>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         return "<figcaption ".parent::generateAttributes().">".parent::generateComponents()."</figcaption>";

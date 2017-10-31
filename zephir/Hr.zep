@@ -16,6 +16,8 @@ namespace HtmlBlocks;
 //
 // The <hr> tag also supports the Global Attributes in HTML.
 // The <hr> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Hr extends Component{
 

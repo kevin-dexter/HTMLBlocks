@@ -24,6 +24,8 @@ namespace HtmlBlocks;
 //
 // The <th> tag also supports the Global Attributes in HTML.
 // The <th> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Th extends Component{
 

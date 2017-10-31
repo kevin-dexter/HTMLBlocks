@@ -15,6 +15,8 @@ namespace HtmlBlocks;
 //
 // The <colgroup> tag also supports the Global Attributes in HTML.
 // The <colgroup> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Incomplete.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Optgroup extends Component{
 

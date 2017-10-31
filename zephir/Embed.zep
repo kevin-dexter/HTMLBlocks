@@ -9,6 +9,8 @@ namespace HtmlBlocks;
 //
 // The <embed> tag also supports the Global Attributes in HTML.
 // The <embed> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Embed extends Component{
 
@@ -84,7 +86,7 @@ class Embed extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <embed></embed>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         string attributes = this->generateHeight().this->generateWidth().this->generateType().this->generateSrc();

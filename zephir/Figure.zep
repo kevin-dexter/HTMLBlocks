@@ -13,6 +13,8 @@ namespace HtmlBlocks;
 //
 // The <figure> tag also supports the Global Attributes in HTML.
 // The <figure> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Figure extends Component{
 
@@ -21,7 +23,7 @@ class Figure extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <figure></figure>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         return "<figure ".parent::generateAttributes().">".parent::generateComponents()."</figure>";

@@ -14,6 +14,8 @@ namespace HtmlBlocks;
 //
 // The <div> tag also supports the Global Attributes in HTML.
 // The <div> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Div extends Component{
 
@@ -22,7 +24,7 @@ class Div extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <div></div>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         return "<div ".parent::generateAttributes().">".parent::generateComponents()."</div>";

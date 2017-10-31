@@ -15,6 +15,8 @@ namespace HtmlBlocks;
 //
 // The <dl> tag also supports the Global Attributes in HTML.
 // The <dl> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Dl extends Component{
 
@@ -23,7 +25,7 @@ class Dl extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <dl></dl>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         return "<dl ".parent::generateAttributes().">".parent::generateComponents()."</dl>";

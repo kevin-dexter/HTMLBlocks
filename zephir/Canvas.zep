@@ -18,7 +18,7 @@ namespace HtmlBlocks;
 // The <button> tag also supports the Global Attributes in HTML.
 // The <button> tag also supports the Event Attributes in HTML.
 //
-// STATUS : Incomplete.
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Canvas extends Component{
     
@@ -66,10 +66,10 @@ class Canvas extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <header></header>
+    // Syntax: <canvas></canvas>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         string attributes = this->generateHeight().this->generateWidth();
-        return "<article ".attributes.parent::generateAttributes().">".parent::generateComponents()."</article>";
+        return "<canvas ".attributes.parent::generateAttributes().">".parent::generateComponents()."</canvas>";
     }
 }

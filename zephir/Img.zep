@@ -12,6 +12,8 @@ namespace HtmlBlocks;
 //
 // The <img> tag also supports the Global Attributes in HTML.
 // The <img> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Img extends Component{
 
@@ -171,7 +173,7 @@ class Img extends Component{
                             this->generateIsmap().this->generateLongdesc().this->generateSize().
                             this->generateSrc().this->generateSrcset().this->generateUsemap().
                             this->generateWidth();
-        return "<col ".attributes.parent::generateAttributes().">";
+        return "<img ".attributes.parent::generateAttributes().">";
     }
 }
 

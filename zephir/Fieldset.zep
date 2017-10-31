@@ -17,6 +17,8 @@ namespace HtmlBlocks;
 //
 // The <fieldset> tag also supports the Global Attributes in HTML.
 // The <fieldset> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Fieldset extends Component{
 
@@ -80,7 +82,7 @@ class Fieldset extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <fieldset></fieldset>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         string attributes = this->generateDisabled().this->generateForm().this->generateName();

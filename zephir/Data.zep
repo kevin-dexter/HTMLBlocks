@@ -11,7 +11,7 @@ namespace HtmlBlocks;
 //
 // The <Data> tag also supports the Global Attributes in HTML.
 //
-// STATUS : Incomplete
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Data extends Component{
 
@@ -45,11 +45,11 @@ class Data extends Component{
     //
     // Generate component as a string.
     //
-    // Syntax: <cite></cite>
+    // Syntax: <data>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function generate(){
         var attributes = this->generateValue();
-        return "<col ".attributes.parent::generateAttributes().">";
+        return "<data ".attributes.parent::generateAttributes().">";
     }
 }
 

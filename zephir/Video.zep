@@ -14,6 +14,8 @@ namespace HtmlBlocks;
 //
 // The <video> tag also supports the Global Attributes in HTML.
 // The <video> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Incomplete.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Video extends Component{
 /*

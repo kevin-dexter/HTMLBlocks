@@ -11,6 +11,8 @@ namespace HtmlBlocks;
 //
 // The <time> tag also supports the Global Attributes in HTML.
 // The <time> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Time extends Component{
 

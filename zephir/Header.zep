@@ -20,6 +20,8 @@ namespace HtmlBlocks;
 //
 // The <header> tag also supports the Global Attributes in HTML.
 // The <header> tag also supports the Event Attributes in HTML.
+//
+// STATUS : Verify complete and test.
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 class Header extends Component{
 
