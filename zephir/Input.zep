@@ -137,7 +137,7 @@ class Input extends Component{
     //
     // Note: The accept attribute can only be used with <input type="file">.
     //
-    // Syntax: <input type="file" name="pic" accept="image/*"> 
+    // Syntax: <input accept="file_extension|audio/*|video/*|image/*|media_type"> 
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function getAccept(){ return this->accept; }
     public function setAccept(var accept){ let this->accept = accept; }
@@ -152,7 +152,7 @@ class Input extends Component{
     //
     // Note: The alt attribute can only be used with <input type="image">.
     //
-    // Syntax:  <input type="image" src="submit.gif" alt="Submit" width="48" height="48">
+    // Syntax:  <input alt="text">
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function getAlt(){ return this->alt; }
     public function setAlt(var alt){ let this->alt = alt; }
@@ -168,7 +168,7 @@ class Input extends Component{
     // Note: The autocomplete attribute works with the following <input> types: text, search, url, tel, email,
     // password, datepickers, range, and color.
     //
-    // Syntax: <form action="/action_page.php" autocomplete="on">
+    // Syntax: <input autocomplete="on|off"> 
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function getAutocomplete(){ return this->autocomplete; }
     public function setAutocomplete(var autocomplete){ let this->autocomplete = autocomplete; }
@@ -177,31 +177,36 @@ class Input extends Component{
     ////////////////////////////////////////////
     // Autofocus
     //
-    // The span attribute defines the number of columns a <colgroup> element should span.
+    // The autofocus attribute is a boolean attribute.  When present, it specifies that an <input>
+    // element should automatically get focus when the page loads.
     //
-    // Syntax: <colgroup span="number"> 
+    // Syntax: <input autofocus>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function getAutofocus(){ return this->autofocus; }
     public function setAutofocus(var autofocus){ let this->autofocus = autofocus; }
-    private function generateAutofocus(){ return (this->autofocus!="") ? " autofocus='".this->autofocus."'" : ""; }
+    private function generateAutofocus(){ return (this->autofocus) ? " autofocus" : ""; }
 
     ////////////////////////////////////////////
     // Checked
     //
-    // The span attribute defines the number of columns a <colgroup> element should span.
+    // The checked attribute is a boolean attribute.  When present, it specifies that an <input>
+    // element should be pre-selected (checked) when the page loads.  The checked attribute can be
+    // used with <input type="checkbox"> and <input type="radio">.  The checked attribute can also
+    // be set after the page load, with a JavaScript.
     //
-    // Syntax: <colgroup span="number"> 
+    // Syntax: <input checked>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function getChecked(){ return this->checked; }
     public function setChecked(var checked){ let this->checked = checked; }
-    private function generateChecked(){ return (this->checked!="") ? " checked='".this->checked."'" : ""; }
+    private function generateChecked(){ return (this->checked) ? " checked" : ""; }
 
     ////////////////////////////////////////////
     // Dirname
     //
-    // The span attribute defines the number of columns a <colgroup> element should span.
+    // The dirname attribute enables the submission of the text direction of the input field.  The
+    // dirname attribute's value is always the name of the input field, followed by ".dir".
     //
-    // Syntax: <colgroup span="number"> 
+    // Syntax: <input name="myname" dirname="myname.dir">
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function getDirname(){ return this->dirname; }
     public function setDirname(var dirname){ let this->dirname = dirname; }
@@ -210,20 +215,25 @@ class Input extends Component{
     ////////////////////////////////////////////
     // Disabled
     //
-    // The span attribute defines the number of columns a <colgroup> element should span.
+    // The disabled attribute is a boolean attribute.  When present, it specifies that the <input>
+    // element should be disabled.  A disabled input element is unusable and un-clickable.  The
+    // disabled attribute can be set to keep a user from using the <input> element until some other
+    // condition has been met (like selecting a checkbox, etc.). Then, a JavaScript could remove the
+    // disabled value, and make the <input> element usable.
+    // Tip: Disabled <input> elements in a form will not be submitted.
     //
-    // Syntax: <colgroup span="number"> 
+    // Syntax: <input disabled>
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function getDisabled(){ return this->disabled; }
     public function setDisabled(var disabled){ let this->disabled = disabled; }
-    private function generateDisabled(){ return (this->disabled!="") ? " disabled='".this->disabled."'" : ""; }
+    private function generateDisabled(){ return (this->disabled) ? " disabled" : ""; }
     
     ////////////////////////////////////////////
     // Form
     //
-    // The span attribute defines the number of columns a <colgroup> element should span.
+    // The form attribute specifies one or more forms the <input> element belongs to.
     //
-    // Syntax: <colgroup span="number"> 
+    // Syntax: <input form="form_id">
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function getForm(){ return this->form; }
     public function setForm(var form){ let this->form = form; }
@@ -232,9 +242,13 @@ class Input extends Component{
     ////////////////////////////////////////////
     // Formaction
     //
-    // The span attribute defines the number of columns a <colgroup> element should span.
+    // The formaction attribute specifies the URL of the file that will process the input control
+    // when the form is submitted.  The formaction attribute overrides the action attribute of the
+    // <form> element.
     //
-    // Syntax: <colgroup span="number"> 
+    // Note: The formaction attribute is used with type="submit" and type="image".
+    //
+    // Syntax: <input formaction="URL"> 
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public function getFormaction(){ return this->formaction; }
     public function setFormaction(var formaction){ let this->formaction = formaction; }
